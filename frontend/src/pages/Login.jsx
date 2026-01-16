@@ -85,7 +85,7 @@ function Login() {
             <input type="radio" /> Remember me
           </div>
           <div>
-            <Link to="/register">Forget Password ?</Link>
+            <Link to="/register"><a href="">Register</a></Link>
           </div>
         </div>
 
