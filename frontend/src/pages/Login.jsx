@@ -28,7 +28,7 @@ function Login() {
       localStorage.setItem("token", res.data.token);
       localStorage.setItem("employeeId", res.data.employeeId);
 
-      alert("Login Successful ✅");
+      alert("Login Successful ");
       navigate("/payslip");
     } catch (error) {
       alert(error.response?.data?.message || "Login failed ❌");
