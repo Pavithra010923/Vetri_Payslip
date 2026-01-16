@@ -29,7 +29,7 @@ function Register() {
 
     try {
       const hashedPassword = await bcrypt.hash(formData.password, 10);
-      await API.post("/auth/register", {
+      await API.post("/api/auth/register", {
         employeeId: formData.employeeId,
         name: formData.name,
         email: formData.email,
