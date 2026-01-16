@@ -17,33 +17,28 @@ function Register() {
   const navigate = useNavigate();
 
   const handleRegister = async () => {
-    if (
-      !formData.employeeId ||
-      !formData.name ||
-      !formData.email ||
-      !formData.password
-    ) {
-      alert("All fields are required");
-      return;
-    }
+  if (!formData.employeeId || !formData.name || !formData.email || !formData.password) {
+    alert("All fields are required");
+    return;
+  }
 
-    try {
-      const hashedPassword = await bcrypt.hash(formData.password, 10);
-      await API.post("/api/auth/register", {
-        employeeId: formData.employeeId,
-        name: formData.name,
-        email: formData.email,
-        password: hashedPassword,
-      });
+  try {
+    await API.post("/api/auth/register", {
+      employeeId: formData.employeeId,
+      name: formData.name,
+      email: formData.email,
+      password: formData.password,
+    });
 
-      alert("Registered successfully ✅");
-      navigate("/");
+    alert("Registered successfully ✅");
+    navigate("/");
 
-    } catch (error) {
-      alert(error.response?.data?.message || "Registration failed ❌");
-      console.error(error);
-    }
-  };
+  } catch (error) {
+    alert(error.response?.data?.message || "Registration failed ❌");
+    console.error(error);
+  }
+};
+
 
   return (
     <div className='login-container'>
