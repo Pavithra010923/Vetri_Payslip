@@ -1,0 +1,1284 @@
+.payslip-container-1{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.pc1-1 h1{
+    color: rgb(4, 4, 158);
+    font-size: 2.5rem;
+}
+.pc1-1 p{
+    color: rgb(4, 4, 158);
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+.pc1-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+.pc1-2 h1{
+    color: rgb(4, 4, 158);
+}
+.pc1-2 button{
+    background-color: rgb(4, 4, 158);
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+}
+.pc1-2 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px black;
+}
+.payslip-container2{
+    background-color: rgba(238, 255, 238, 0.911);
+}
+.payslip-container2 h1{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    margin-top: 5%;
+}
+.payslip-container-3{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid rgb(4, 4, 158);
+    padding: 30px;
+}
+.pc3-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pc3-1-1 div{
+    width: 30%;
+    aspect-ratio: 4/4;
+}
+.pc3-1-1 div img{
+    height: 100%;
+    width: 100%;
+}
+.pc3-1-1 h1{
+    top: 0;
+}
+.pc3-1-1 p{
+    font-size: 20px;
+    margin-top: 3%;
+}
+.pc3-1-2 p{
+    font-size: 23px;
+    font-weight: 550;
+}
+.pc3-1-2 input{
+    border: 1px solid grey;
+    margin-top: 5%;
+    width: 100%;
+    padding: 10px;
+}
+/* ------------------------ */
+.payslip-container-4 h1{
+    text-align: left;
+    top: 0;
+    margin-top: 3%;
+    color: rgb(4, 4, 158);
+}
+.payslip-container-4 h1 span{
+    color: red;
+}
+.pc-4{
+    position: relative;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
+}
+.pc4-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 20px;
+    position: relative;
+    margin-top: 5%;
+}
+.pc4-1 input{
+    padding: 15px;
+}
+.pc hr{
+    margin-top: 5%;
+}
+
+/* -------------------- */
+.pc-5-1{
+    position: relative;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+}
+.pc-5-col1{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.pc-5-col1-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(238, 255, 238, 0.911);
+    border-radius: 20px 20px 0 0;
+    font-size: 20px;
+    font-weight: 550;
+}
+.pc-5-col1-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    font-size: 20px;
+    font-weight: 550;
+    padding:20px 20px;
+}
+.pc-5-col1-2 input{
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.pc-5-col1-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    font-size: 20px;
+    font-weight: 550;
+    padding:20px 20px;
+    background-color: rgb(4, 4, 158);
+    color: white;
+}
+.pc-5-col1-5{
+    padding: 32px;
+    font-size: 20px;
+    font-weight: 550;
+}
+.pc-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(238, 255, 238, 0.911);
+    position: relative;
+    margin-top: 5%;
+    padding: 30px;
+}
+.total-pay{
+    background-color: rgb(4, 4, 158);
+    width: 15%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 550px;
+    border-radius: 10px;
+}
+.generte-payslip{
+    position: relative;
+    margin-top: 5%;
+    background-color: rgb(4, 4, 158);
+    width: 50%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 550px;
+    border-radius: 10px;
+    border: none;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.generte-payslip:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px black;
+}
+@media (min-width:300px) and (max-width:400px) {
+    .payslip-container-1{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.pc1-1 h1{
+    color: rgb(4, 4, 158);
+    font-size: 1.5rem;
+}
+.pc1-1 p{
+    color: rgb(4, 4, 158);
+    font-size: 1rem;
+    font-weight: 550;
+}
+.pc1-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+.pc1-2 h1{
+    color: rgb(4, 4, 158);
+    font-size: 20px;
+}
+.pc1-2 button{
+    background-color: rgb(4, 4, 158);
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+}
+.pc1-2 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px black;
+}
+.payslip-container2{
+    background-color: rgba(238, 255, 238, 0.911);
+}
+.payslip-container2 h1{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-size: 20px;
+    margin-top: 5%;
+}
+.payslip-container-3{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-top: 20%;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid rgb(4, 4, 158);
+    padding: 30px;
+}
+.pc3-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pc3-1-1 div{
+    width: 30%;
+    aspect-ratio: 4/4;
+}
+.pc3-1-1 div img{
+    height: 100%;
+    width: 100%;
+}
+.pc3-1-1 h1{
+    top: 0;
+    font-size: 20px;
+}
+.pc3-1-1 p{
+    font-size: 16px;
+    margin-top: 3%;
+}
+.pc3-1-2 p{
+    font-size: 23px;
+    font-weight: 550;
+}
+.pc3-1-2 input{
+    border: 1px solid grey;
+    margin-top: 5%;
+    width: 100%;
+    padding: 10px;
+}
+/* ------------------------ */
+.payslip-container-4 h1{
+    font-size: 20px;
+    text-align: left;
+    top: 0;
+    margin-top: 3%;
+    color: rgb(4, 4, 158);
+}
+.payslip-container-4 h1 span{
+    color: red;
+}
+.pc-4{
+    position: relative;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3%;
+}
+.pc4-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 12px;
+    position: relative;
+    margin-top: 5%;
+}
+.pc4-1 input{
+    padding: 15px;
+}
+.pc hr{
+    margin-top: 5%;
+}
+
+/* -------------------- */
+.pc-5-1{
+    position: relative;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5%;
+}
+.pc-5-col1{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.pc-5-col1-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(238, 255, 238, 0.911);
+    border-radius: 20px 20px 0 0;
+    font-size: 12px;
+    font-weight: 550;
+}
+.pc-5-col1-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    font-size: 12px;
+    font-weight: 550;
+    padding:20px 20px;
+}
+.pc-5-col1-2 input{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.pc-5-col1-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    font-size: 12px;
+    font-weight: 550;
+    padding:20px 20px;
+    background-color: rgb(4, 4, 158);
+    color: white;
+}
+.pc-5-col1-5{
+    padding: 32px;
+    font-size: 20px;
+    font-weight: 550;
+}
+.pc-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(238, 255, 238, 0.911);
+    position: relative;
+    margin-top: 20%;
+    padding: 30px;
+}
+.total-pay{
+    background-color: rgb(4, 4, 158);
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 5%;
+    font-size: 15px;
+    font-weight: 550px;
+    border-radius: 10px;
+}
+.generte-payslip{
+    position: relative;
+    margin-top: 5%;
+    background-color: rgb(4, 4, 158);
+    width: 80%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 550px;
+    border-radius: 10px;
+    border: none;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.generte-payslip:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px black;
+}
+}
+
+@media (min-width:401px) and (max-width:576px) {
+    .payslip-container-1{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.pc1-1 h1{
+    color: rgb(4, 4, 158);
+    font-size: 1.5rem;
+}
+.pc1-1 p{
+    color: rgb(4, 4, 158);
+    font-size: 1rem;
+    font-weight: 550;
+}
+.pc1-2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5%;
+}
+.pc1-2 h1{
+    color: rgb(4, 4, 158);
+    font-size: 20px;
+}
+.pc1-2 button{
+    background-color: rgb(4, 4, 158);
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+}
+.pc1-2 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px black;
+}
+.payslip-container2{
+    background-color: rgba(238, 255, 238, 0.911);
+}
+.payslip-container2 h1{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    font-size: 20px;
+    margin-top: 5%;
+}
+.payslip-container-3{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-top: 20%;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid rgb(4, 4, 158);
+    padding: 30px;
+}
+.pc3-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pc3-1-1 div{
+    width: 30%;
+    aspect-ratio: 4/4;
+}
+.pc3-1-1 div img{
+    height: 100%;
+    width: 100%;
+}
+.pc3-1-1 h1{
+    top: 0;
+    font-size: 20px;
+}
+.pc3-1-1 p{
+    font-size: 16px;
+    margin-top: 3%;
+}
+.pc3-1-2 p{
+    font-size: 23px;
+    font-weight: 550;
+}
+.pc3-1-2 input{
+    border: 1px solid grey;
+    margin-top: 5%;
+    width: 100%;
+    padding: 10px;
+}
+/* ------------------------ */
+.payslip-container-4 h1{
+    font-size: 20px;
+    text-align: left;
+    top: 0;
+    margin-top: 3%;
+    color: rgb(4, 4, 158);
+}
+.payslip-container-4 h1 span{
+    color: red;
+}
+.pc-4{
+    position: relative;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3%;
+}
+.pc4-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 12px;
+    position: relative;
+    margin-top: 5%;
+}
+.pc4-1 input{
+    padding: 15px;
+}
+.pc hr{
+    margin-top: 5%;
+}
+
+/* -------------------- */
+.pc-5-1{
+    position: relative;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5%;
+}
+.pc-5-col1{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.pc-5-col1-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(238, 255, 238, 0.911);
+    border-radius: 20px 20px 0 0;
+    font-size: 12px;
+    font-weight: 550;
+}
+.pc-5-col1-2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    font-size: 12px;
+    font-weight: 550;
+    padding:20px 20px;
+}
+.pc-5-col1-2 input{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.pc-5-col1-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    font-size: 12px;
+    font-weight: 550;
+    padding:20px 20px;
+    background-color: rgb(4, 4, 158);
+    color: white;
+}
+.pc-5-col1-5{
+    padding: 32px;
+    font-size: 20px;
+    font-weight: 550;
+}
+.pc-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(238, 255, 238, 0.911);
+    position: relative;
+    margin-top: 20%;
+    padding: 30px;
+}
+.total-pay{
+    background-color: rgb(4, 4, 158);
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 5%;
+    font-size: 15px;
+    font-weight: 550px;
+    border-radius: 10px;
+}
+.generte-payslip{
+    position: relative;
+    margin-top: 5%;
+    background-color: rgb(4, 4, 158);
+    width: 80%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 550px;
+    border-radius: 10px;
+    border: none;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.generte-payslip:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px black;
+}
+}
+@media (min-width:577px) and (max-width:768px) {
+    .payslip-container-1{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.pc1-1 h1{
+    color: rgb(4, 4, 158);
+    font-size: 1.5rem;
+}
+.pc1-1 p{
+    color: rgb(4, 4, 158);
+    font-size: 1rem;
+    font-weight: 550;
+}
+.pc1-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+.pc1-2 h1{
+    color: rgb(4, 4, 158);
+    font-size: 1.5rem;
+}
+.pc1-2 button{
+    background-color: rgb(4, 4, 158);
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+}
+.pc1-2 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px black;
+}
+.payslip-container2{
+    background-color: rgba(238, 255, 238, 0.911);
+}
+.payslip-container2 h1{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    margin-top: 5%;
+    font-size: 23px;
+}
+.payslip-container-3{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid rgb(4, 4, 158);
+    padding: 30px;
+}
+.pc3-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pc3-1-1 div{
+    width: 30%;
+    aspect-ratio: 4/4;
+}
+.pc3-1-1 div img{
+    height: 100%;
+    width: 100%;
+}
+.pc3-1-1 h1{
+    top: 0;
+}
+.pc3-1-1 p{
+    font-size: 20px;
+    margin-top: 3%;
+}
+.pc3-1-2 p{
+    font-size: 23px;
+    font-weight: 550;
+}
+.pc3-1-2 input{
+    border: 1px solid grey;
+    margin-top: 5%;
+    width: 100%;
+    padding: 10px;
+}
+/* ------------------------ */
+.payslip-container-4 h1{
+    text-align: left;
+    top: 0;
+    margin-top: 3%;
+    color: rgb(4, 4, 158);
+}
+.payslip-container-4 h1 span{
+    color: red;
+}
+.pc-4{
+    position: relative;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
+}
+.pc4-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 15px;
+    position: relative;
+    margin-top: 5%;
+}
+.pc4-1 input{
+    padding: 15px;
+}
+.pc hr{
+    margin-top: 5%;
+}
+
+/* -------------------- */
+.pc-5-1{
+    position: relative;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+}
+.pc-5-col1{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.pc-5-col1-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(238, 255, 238, 0.911);
+    border-radius: 20px 20px 0 0;
+    font-size: 15px;
+    font-weight: 550;
+}
+.pc-5-col1-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    font-size:15px;
+    font-weight: 550;
+    padding:20px 20px;
+}
+.pc-5-col1-2 input{
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.pc-5-col1-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    font-size: 15px;
+    font-weight: 550;
+    padding:20px 20px;
+    background-color: rgb(4, 4, 158);
+    color: white;
+}
+.pc-5-col1-5{
+    padding: 25px;
+    font-size: 15px;
+    font-weight: 550;
+}
+.pc-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(238, 255, 238, 0.911);
+    position: relative;
+    margin-top: 5%;
+    padding: 30px;
+}
+.total-pay{
+    background-color: rgb(4, 4, 158);
+    width: 30%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 550px;
+    border-radius: 10px;
+}
+.generte-payslip{
+    position: relative;
+    margin-top: 5%;
+    background-color: rgb(4, 4, 158);
+    width: 50%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 550px;
+    border-radius: 10px;
+    border: none;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.generte-payslip:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px black;
+}
+}
+@media (min-width:768px) and (max-width:992px) {
+    .payslip-container-1{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+.pc1-1 h1{
+    color: rgb(4, 4, 158);
+    font-size: 1.5rem;
+}
+.pc1-1 p{
+    color: rgb(4, 4, 158);
+    font-size: 1rem;
+    font-weight: 550;
+}
+.pc1-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+.pc1-2 h1{
+    color: rgb(4, 4, 158);
+    font-size: 1.5rem;
+}
+.pc1-2 button{
+    background-color: rgb(4, 4, 158);
+    color: white;
+    font-size: 15px;
+    font-weight: 550;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+}
+.pc1-2 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px black;
+}
+.payslip-container2{
+    background-color: rgba(238, 255, 238, 0.911);
+}
+.payslip-container2 h1{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    margin-top: 5%;
+    font-size: 23px;
+}
+.payslip-container-3{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid rgb(4, 4, 158);
+    padding: 30px;
+}
+.pc3-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pc3-1-1 div{
+    width: 30%;
+    aspect-ratio: 4/4;
+}
+.pc3-1-1 div img{
+    height: 100%;
+    width: 100%;
+}
+.pc3-1-1 h1{
+    top: 0;
+}
+.pc3-1-1 p{
+    font-size: 20px;
+    margin-top: 3%;
+}
+.pc3-1-2 p{
+    font-size: 23px;
+    font-weight: 550;
+}
+.pc3-1-2 input{
+    border: 1px solid grey;
+    margin-top: 5%;
+    width: 100%;
+    padding: 10px;
+}
+/* ------------------------ */
+.payslip-container-4 h1{
+    text-align: left;
+    top: 0;
+    margin-top: 3%;
+    color: rgb(4, 4, 158);
+}
+.payslip-container-4 h1 span{
+    color: red;
+}
+.pc-4{
+    position: relative;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
+}
+.pc4-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 15px;
+    position: relative;
+    margin-top: 5%;
+}
+.pc4-1 input{
+    padding: 15px;
+}
+.pc hr{
+    margin-top: 5%;
+}
+
+/* -------------------- */
+.pc-5-1{
+    position: relative;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+}
+.pc-5-col1{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.pc-5-col1-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(238, 255, 238, 0.911);
+    border-radius: 20px 20px 0 0;
+    font-size: 18px;
+    font-weight: 550;
+}
+.pc-5-col1-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    font-size:18px;
+    font-weight: 550;
+    padding:20px 20px;
+}
+.pc-5-col1-2 input{
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.pc-5-col1-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    font-size: 18px;
+    font-weight: 550;
+    padding:20px 20px;
+    background-color: rgb(4, 4, 158);
+    color: white;
+}
+.pc-5-col1-5{
+    padding: 22px;
+    font-size: 18px;
+    font-weight: 550;
+}
+.pc-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(238, 255, 238, 0.911);
+    position: relative;
+    margin-top: 5%;
+    padding: 30px;
+}
+.total-pay{
+    background-color: rgb(4, 4, 158);
+    width: 30%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 550px;
+    border-radius: 10px;
+}
+.generte-payslip{
+    position: relative;
+    margin-top: 5%;
+    background-color: rgb(4, 4, 158);
+    width: 50%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 550px;
+    border-radius: 10px;
+    border: none;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.generte-payslip:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px black;
+}
+}
+@media (min-width:993px) and (max-width:1200px) {
+    .payslip-container-1{
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.pc1-1 h1{
+    color: rgb(4, 4, 158);
+    font-size: 2.5rem;
+}
+.pc1-1 p{
+    color: rgb(4, 4, 158);
+    font-size: 1.5rem;
+    font-weight: 550;
+}
+.pc1-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+.pc1-2 h1{
+    color: rgb(4, 4, 158);
+}
+.pc1-2 button{
+    background-color: rgb(4, 4, 158);
+    color: white;
+    font-size: 20px;
+    font-weight: 550;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 10px;
+}
+.pc1-2 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px black;
+}
+.payslip-container2{
+    background-color: rgba(238, 255, 238, 0.911);
+}
+.payslip-container2 h1{
+    text-align: center;
+    position: relative;
+    top: 60px;
+    margin-top: 5%;
+}
+.payslip-container-3{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 30px;
+    border: 1px solid rgb(4, 4, 158);
+    padding: 30px;
+}
+.pc3-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.pc3-1-1 div{
+    width: 30%;
+    aspect-ratio: 4/4;
+}
+.pc3-1-1 div img{
+    height: 100%;
+    width: 100%;
+}
+.pc3-1-1 h1{
+    top: 0;
+}
+.pc3-1-1 p{
+    font-size: 20px;
+    margin-top: 3%;
+}
+.pc3-1-2 p{
+    font-size: 23px;
+    font-weight: 550;
+}
+.pc3-1-2 input{
+    border: 1px solid grey;
+    margin-top: 5%;
+    width: 100%;
+    padding: 10px;
+}
+/* ------------------------ */
+.payslip-container-4 h1{
+    text-align: left;
+    top: 0;
+    margin-top: 3%;
+    color: rgb(4, 4, 158);
+}
+.payslip-container-4 h1 span{
+    color: red;
+}
+.pc-4{
+    position: relative;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3%;
+}
+.pc4-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 20px;
+    position: relative;
+    margin-top: 5%;
+}
+.pc4-1 input{
+    padding: 15px;
+}
+.pc hr{
+    margin-top: 5%;
+}
+
+/* -------------------- */
+.pc-5-1{
+    position: relative;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+}
+.pc-5-col1{
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.pc-5-col1-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(238, 255, 238, 0.911);
+    border-radius: 20px 20px 0 0;
+    font-size: 20px;
+    font-weight: 550;
+}
+.pc-5-col1-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px 20px 0 0;
+    font-size: 20px;
+    font-weight: 550;
+    padding:20px 20px;
+}
+.pc-5-col1-2 input{
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+.pc-5-col1-3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+    font-size: 20px;
+    font-weight: 550;
+    padding:20px 20px;
+    background-color: rgb(4, 4, 158);
+    color: white;
+}
+.pc-5-col1-5{
+    padding: 32px;
+    font-size: 20px;
+    font-weight: 550;
+}
+.pc-6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(238, 255, 238, 0.911);
+    position: relative;
+    margin-top: 5%;
+    padding: 30px;
+}
+.total-pay{
+    background-color: rgb(4, 4, 158);
+    width: 15%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 550px;
+    border-radius: 10px;
+}
+.generte-payslip{
+    position: relative;
+    margin-top: 5%;
+    background-color: rgb(4, 4, 158);
+    width: 50%;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 550px;
+    border-radius: 10px;
+    border: none;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.generte-payslip:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px black;
+}
+}

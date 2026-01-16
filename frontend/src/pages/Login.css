@@ -1,0 +1,676 @@
+.login-container{
+    width: 85%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.login-row1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+.login-row1-image{
+    width: 30%;
+    aspect-ratio: 4/4;
+}
+.login-row1-image img{
+    height: 100%;
+    width: 100%;
+}
+.login-row1-content h1{
+    font-size: 2.5rem;
+    color: rgb(4, 4, 158);
+}
+.login-row1-content p{
+    font-size: 1.8rem;
+    color: rgb(4, 4, 158);
+    font-weight: 500;
+}
+.login-row2{
+    width: 100%;
+    aspect-ratio: 6/4;
+    position: relative;
+    margin-top: 5%;
+}
+.login-row2 img{
+    height: 100%;
+    width: 100%;
+}
+/* --------------------- */
+.login-col2{
+    border: 1px solid rgb(4, 4, 158);
+    padding: 20px;
+    padding-top: 10%;
+    border-radius: 30px;
+    background-color: rgb(233, 255, 233);
+}
+.login-col2 h1{
+    text-align: center;
+    color: rgb(4, 4, 158);
+}
+.l1{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-top: 5%;
+}
+.l1 input{
+    width: 100%;
+    padding: 20px;
+    padding-left: 10%;
+    border: none;
+    border-radius: 20px;
+}
+.l1 span{
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.l1 input::placeholder{
+    color: black;
+    font-size: 15px;
+}
+.l2{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.l2 a{
+    text-decoration: none;
+    color: black;
+}
+.login-col2 button{
+    width: 90%;
+    position: relative;
+    margin-top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px;
+    background-color: rgb(4, 4, 158);
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+}
+.login-col2 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px black;
+}
+@media (min-width:300px) and (max-width:400px) {
+    .login-container{
+    width: 85%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+.login-row1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+.login-row1-image{
+    width: 25%;
+    aspect-ratio: 4/4;
+}
+.login-row1-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.login-row1-content h1{
+    font-size: 1.2rem;
+    color: rgb(4, 4, 158);
+}
+.login-row1-content p{
+    font-size: 1rem;
+    color: rgb(4, 4, 158);
+    font-weight: 500;
+}
+.login-row2{
+    width: 100%;
+    aspect-ratio: 6/4;
+    position: relative;
+    margin-top: 5%;
+}
+.login-row2 img{
+    height: 100%;
+    width: 100%;
+}
+/* --------------------- */
+.login-col2{
+    border: 1px solid rgb(4, 4, 158);
+    padding: 20px;
+    padding-top: 10%;
+    border-radius: 30px;
+    background-color: rgb(233, 255, 233);
+}
+.login-col2 h1{
+    text-align: center;
+    color: rgb(4, 4, 158);
+    font-size: 1.2rem;
+}
+.l1{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    margin-top: 5%;
+}
+.l1 input{
+    width: 100%;
+    padding: 20px;
+    padding-left: 15%;
+    border: none;
+    border-radius: 20px;
+}
+.l1 span{
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+}
+.l1 input::placeholder{
+    color: black;
+    font-size: 12px;
+}
+.l2{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-size: 15px;
+}
+.l2 a{
+    text-decoration: none;
+    color: black;
+}
+.login-col2 button{
+    width: 90%;
+    position: relative;
+    margin-top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px;
+    background-color: rgb(4, 4, 158);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+}
+.login-col2 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px black;
+}
+}
+@media (min-width:401px) and (max-width:576px) {
+    .login-container{
+    width: 85%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+.login-row1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+.login-row1-image{
+    width: 25%;
+    aspect-ratio: 4/4;
+}
+.login-row1-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.login-row1-content h1{
+    font-size: 1.2rem;
+    color: rgb(4, 4, 158);
+}
+.login-row1-content p{
+    font-size: 1rem;
+    color: rgb(4, 4, 158);
+    font-weight: 500;
+}
+.login-row2{
+    width: 100%;
+    aspect-ratio: 6/4;
+    position: relative;
+    margin-top: 5%;
+}
+.login-row2 img{
+    height: 100%;
+    width: 100%;
+}
+/* --------------------- */
+.login-col2{
+    border: 1px solid rgb(4, 4, 158);
+    padding: 20px;
+    padding-top: 10%;
+    border-radius: 30px;
+    background-color: rgb(233, 255, 233);
+}
+.login-col2 h1{
+    text-align: center;
+    color: rgb(4, 4, 158);
+    font-size: 1.2rem;
+}
+.l1{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    margin-top: 5%;
+}
+.l1 input{
+    width: 100%;
+    padding: 20px;
+    padding-left: 15%;
+    border: none;
+    border-radius: 20px;
+}
+.l1 span{
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+}
+.l1 input::placeholder{
+    color: black;
+    font-size: 12px;
+}
+.l2{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-size: 15px;
+}
+.l2 a{
+    text-decoration: none;
+    color: black;
+}
+.login-col2 button{
+    width: 90%;
+    position: relative;
+    margin-top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px;
+    background-color: rgb(4, 4, 158);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+}
+.login-col2 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px black;
+}
+}
+@media (min-width:577px) and (max-width:768px) {
+    .login-container{
+    width: 85%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.login-row1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+.login-row1-image{
+    width: 25%;
+    aspect-ratio: 4/4;
+}
+.login-row1-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.login-row1-content h1{
+    font-size: 1.2rem;
+    color: rgb(4, 4, 158);
+}
+.login-row1-content p{
+    font-size: 1rem;
+    color: rgb(4, 4, 158);
+    font-weight: 500;
+}
+.login-row2{
+    width: 100%;
+    aspect-ratio: 6/4;
+    position: relative;
+    margin-top: 5%;
+}
+.login-row2 img{
+    height: 100%;
+    width: 100%;
+}
+/* --------------------- */
+.login-col2{
+    border: 1px solid rgb(4, 4, 158);
+    padding: 20px;
+    padding-top: 10%;
+    border-radius: 30px;
+    background-color: rgb(233, 255, 233);
+}
+.login-col2 h1{
+    text-align: center;
+    color: rgb(4, 4, 158);
+    font-size: 1.2rem;
+}
+.l1{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    margin-top: 5%;
+}
+.l1 input{
+    width: 100%;
+    padding: 20px;
+    padding-left: 15%;
+    border: none;
+    border-radius: 20px;
+}
+.l1 span{
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+}
+.l1 input::placeholder{
+    color: black;
+    font-size: 12px;
+}
+.l2{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    font-size: 15px;
+}
+.l2 a{
+    text-decoration: none;
+    color: black;
+}
+.login-col2 button{
+    width: 90%;
+    position: relative;
+    margin-top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px;
+    background-color: rgb(4, 4, 158);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+}
+.login-col2 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px black;
+}
+}
+@media (min-width:769px) and (max-width:992px) {
+    .login-container{
+    width: 85%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.login-row1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+.login-row1-image{
+    width: 25%;
+    aspect-ratio: 4/4;
+}
+.login-row1-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.login-row1-content h1{
+    font-size: 1.5rem;
+    color: rgb(4, 4, 158);
+}
+.login-row1-content p{
+    font-size: 1.2rem;
+    color: rgb(4, 4, 158);
+    font-weight: 500;
+}
+.login-row2{
+    width: 100%;
+    aspect-ratio: 6/5;
+    position: relative;
+    margin-top: 5%;
+}
+.login-row2 img{
+    height: 100%;
+    width: 100%;
+}
+/* --------------------- */
+.login-col2{
+    border: 1px solid rgb(4, 4, 158);
+    padding: 20px;
+    padding-top: 10%;
+    border-radius: 30px;
+    background-color: rgb(233, 255, 233);
+}
+.login-col2 h1{
+    text-align: center;
+    color: rgb(4, 4, 158);
+    font-size: 1.5rem;
+}
+.l1{
+    width: 100%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+}
+.l1 input{
+    width: 100%;
+    padding: 20px;
+    padding-left: 15%;
+    border: none;
+    border-radius: 20px;
+}
+.l1 span{
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+}
+.l1 input::placeholder{
+    color: black;
+    font-size: 15px;
+}
+.l2{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    display: flex;
+    font-size: 15px;
+}
+.l2 a{
+    text-decoration: none;
+    color: black;
+}
+.login-col2 button{
+    width: 90%;
+    position: relative;
+    margin-top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 12px;
+    background-color: rgb(4, 4, 158);
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+}
+.login-col2 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px black;
+}
+}
+@media (min-width:993px) and (max-width:1200px) {
+    .login-container{
+    width: 85%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.login-row1{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+.login-row1-image{
+    width: 30%;
+    aspect-ratio: 4/4;
+}
+.login-row1-image img{
+    height: 100%;
+    width: 100%;
+}
+
+.login-row1-content h1{
+    font-size: 1.8rem;
+    color: rgb(4, 4, 158);
+}
+.login-row1-content p{
+    font-size: 1.4rem;
+    color: rgb(4, 4, 158);
+    font-weight: 500;
+}
+.login-row2{
+    width: 100%;
+    aspect-ratio: 6/5;
+    position: relative;
+    margin-top: 5%;
+}
+.login-row2 img{
+    height: 100%;
+    width: 100%;
+}
+/* --------------------- */
+.login-col2{
+    border: 1px solid rgb(4, 4, 158);
+    padding: 20px;
+    padding-top: 10%;
+    border-radius: 30px;
+    background-color: rgb(233, 255, 233);
+}
+.login-col2 h1{
+    text-align: center;
+    color: rgb(4, 4, 158);
+    font-size: 1.8rem;
+}
+.l1{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+}
+.l1 input{
+    width: 100%;
+    padding: 20px;
+    padding-left: 10%;
+    border: none;
+    border-radius: 20px;
+}
+.l1 span{
+    position: absolute;
+    left: 3%;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 15px;
+}
+.l1 input::placeholder{
+    color: black;
+    font-size: 15px;
+}
+.l2{
+    width: 90%;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    display: flex;
+    font-size: 16px;
+}
+.l2 a{
+    text-decoration: none;
+    color: black;
+}
+.login-col2 button{
+    width: 90%;
+    position: relative;
+    margin-top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 15px;
+    background-color: rgb(4, 4, 158);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+}
+.login-col2 button:hover{
+    cursor: pointer;
+    box-shadow: inset 5px 5px 5px black;
+}
+}
