@@ -6,7 +6,10 @@ import payslipRoutes from "./routes/payslipRoutes.js";
 const app = express();
 
 app.use(cors({
-  origin: " "https://your-frontend.vercel.app"",  
+  origin: [
+    "http://localhost:5173",
+    "https://vetri-payslip.vercel.app"
+  ],
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
